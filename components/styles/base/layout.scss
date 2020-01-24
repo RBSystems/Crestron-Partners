@@ -1,0 +1,33 @@
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.container-layout {
+    display: flex;
+    flex-direction: column;
+    max-width: 1440px;
+    margin: 0 auto;
+
+    @include respond-to(large-desktop) {
+        max-width: 1160px;
+    }
+
+    @include respond-to(desktop) {
+        max-width: 960px;
+    }
+
+    @include respond-to(tablet) {
+        max-width: 720px;
+    }
+
+    @include respond-to(mobile-large) {
+        max-width: 540px;
+    }
+}
