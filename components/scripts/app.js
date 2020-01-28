@@ -1,9 +1,9 @@
+import $ from 'jquery';
 import AOS from 'aos';
-
 'use strict';
 
 document.addEventListener('DOMContentLoaded', function() {
-    console.log('test');
+    console.log('amr test');
     console.log('test test');
-    AOS.init();
+    AOS.init();$('')
 });
