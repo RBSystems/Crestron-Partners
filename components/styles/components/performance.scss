@@ -1,0 +1,39 @@
+.performance {
+    margin-top: 10%;
+    text-align: center;
+}
+
+.performance-contents {
+    margin-top: 3%;
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+@media all and (max-width: 800px) {
+    .performance-contents {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.side img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+}
+
+.side p {
+    font: 300 1.6rem/1.187 "Lato", sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    text-align: center;
+}
+.side{
+    width: 23%;
+}

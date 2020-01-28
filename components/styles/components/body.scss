@@ -1,0 +1,186 @@
+*{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    @include font-size(1.6rem);
+    color: $color-white;
+    background: #004a80;
+    //overflow: hidden;
+    min-width: 100%;
+}
+
+h1 {
+    font: 400 2.3rem/.931 "Lato", sans-serif;
+    text-align: center;
+    margin: 10px 0 30px;
+}
+
+
+h2 {
+    font: 900 7rem/1 "Lato", sans-serif;
+    text-transform: uppercase;
+    color: #012f66;
+    margin: 0 0 20px;
+}
+
+h3 {
+    font: bold 7rem/.821 "Lato", sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0 0 20px;
+}
+
+h4 {
+    font: 3rem/.76 "Lato", sans-serif;
+    letter-spacing: 0;
+    color: $color-white;
+    margin: 0 0 20px;
+    line-height: 1;
+}
+
+h5 {
+    font: bold 2.3rem/.821 "Lato", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    margin: 0 0 20px;
+    color: $color-white;
+}
+
+h6 {
+    font: 600 1.6rem/.8421 "Lato", sans-serif;
+    letter-spacing: 0;
+    line-height: 65px;
+    margin: 0 0 20px;
+    color: $color-white;
+}
+
+ul,
+ol {
+    margin: 0 25px 25px;
+    padding: 0 0 0 10px;
+}
+
+ul {
+    list-style: disc;
+}
+
+ol {
+    list-style: decimal;
+}
+
+p {
+    //margin: 0 0 30px;
+    font: 300 1.6rem/.84 "Lato", sans-serif;
+    text-align: center;
+    line-height: .9;
+    max-width: 673px;
+    margin: auto;
+    color: #001e41;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+img {
+    display: block;
+    vertical-align: top;
+}
+
+strong {
+    font-weight: 700;
+}
+
+a {
+    color: #001e41;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #001e41;
+    text-decoration: none;
+}
+
+a:focus {
+    color: $color-white;
+}
+
+button,
+input,
+textarea {
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: none;
+    -webkit-appearance: none;
+    border-radius: 0;
+}
+
+button:focus,
+input:focus,
+textarea:focus {
+    outline: none !important;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+textarea {
+    width: 100%;
+    color: black;
+    text-transform: uppercase;
+    height: 32px;
+    padding: 7px 0;
+    border-bottom: 1px solid #fff;
+    font-size: 1.6rem;
+    line-height: 32px;
+}
+
+textarea {
+    height: 80px;
+    resize: none !important;
+}
+
+::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: $color-white;
+    opacity: 1;
+}
+
+
+:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: $color-white;
+}
+
+::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: $color-white;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+    -webkit-transition-delay: 9999s;
+}
+
+
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 40px;
+}

@@ -1,0 +1,55 @@
+
+.believe {
+    margin-top: 10%;
+}
+
+.believe-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media all and (max-width: 1200px) {
+    .believe-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.believe-left {
+    width: 51%;
+    text-align: center;
+}
+
+.believe-left h3 {
+    font-family: "Lato", sans-serif;
+    @include font-size(7rem);
+    font-weight: 900;
+    line-height: 1em;
+}
+
+.believe-left p {
+    text-align: left;
+    color: white;
+    margin-top: 4%;
+}
+
+.believe-right {
+    margin-left: 20%;
+}
+
+.believe-botton {
+    font-size: 15px;
+    background: #ffce33;
+    color: #001e41;
+    border: 0;
+    font-weight: 900;
+    text-transform: uppercase;
+    display: inline-block;
+    text-align: left;
+    margin-top: 10%;
+    border-radius: 50px;
+    padding: 10px 30px 10px 30px;
+    position: relative;
+    text-decoration: none;
+    margin-bottom: 10%;
+}

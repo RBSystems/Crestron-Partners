@@ -1,0 +1,36 @@
+.work-container {
+    margin-top: 10%;
+    background-color: white;
+    text-align: center;
+}
+
+.work-container h2 {
+    margin-top: 5%;
+}
+
+.work-container p {
+    margin-top: 2%;
+    color: #001e41;
+    font: 1.6rem/.8421 "Lato", sans-serif;
+    letter-spacing: 0;
+    line-height: 21px;
+}
+
+.form-group {
+    margin: 0;
+}
+
+.form-group .col {
+    float: none;
+    width: 100%;
+    padding: 0 0 30px;
+}
+
+.register-form input[type="submit"] {
+    margin: 60px auto 20px;
+    width: 300px;
+}
+
+input[type="text"] {
+    color: black;
+}
