@@ -28,7 +28,10 @@
 }
 
 .side p {
-    font: 300 1.6rem/1.187 "Lato", sans-serif;
+    font-weight: 300;
+    font-family: "Lato", sans-serif;
+    @include font-size(1.6rem);
+    line-height: 19px;
     margin-left: auto;
     margin-right: auto;
     color: white;

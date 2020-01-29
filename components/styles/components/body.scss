@@ -12,37 +12,46 @@ body {
     @include font-size(1.6rem);
     color: $color-white;
     background: #004a80;
-    //overflow: hidden;
     min-width: 100%;
 }
 
 h1 {
-    font: 400 2.3rem/.931 "Lato", sans-serif;
-    text-align: center;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    @include font-size(2.3rem);
+    line-height: 1em;
     margin: 10px 0 30px;
 }
 
 
 h2 {
-    font: 900 7rem/1 "Lato", sans-serif;
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    @include font-size(7rem);
+    line-height: 1em;
     text-transform: uppercase;
     color: #012f66;
     margin: 0 0 20px;
 }
 
 h3 {
-    font: bold 7rem/.821 "Lato", sans-serif;
+    font-family: "Lato", sans-serif;
+    font-weight: bold;
+    @include font-size(7rem);
+    line-height: 1em;
     text-align: center;
     text-transform: uppercase;
     margin: 0 0 20px;
 }
 
 h4 {
-    font: 3rem/.76 "Lato", sans-serif;
+    font-weight: 400;
+    font-family: "Lato", sans-serif;
+    @include font-size(3rem);
+    line-height: 39px;
     letter-spacing: 0;
     color: $color-white;
     margin: 0 0 20px;
-    line-height: 1;
 }
 
 h5 {
@@ -54,10 +63,12 @@ h5 {
 }
 
 h6 {
-    font: 600 1.6rem/.8421 "Lato", sans-serif;
+    font-weight: 400;
+    font-family: "Lato", sans-serif;
+    @include font-size(1.6rem);
+    line-height: 19px;
     letter-spacing: 0;
-    line-height: 65px;
-    margin: 0 0 20px;
+    margin: 20px 0;
     color: $color-white;
 }
 
@@ -77,10 +88,11 @@ ol {
 
 p {
     //margin: 0 0 30px;
-    font: 300 1.6rem/.84 "Lato", sans-serif;
-    text-align: center;
-    line-height: .9;
-    max-width: 673px;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    @include font-size(1.6rem);
+    line-height: 1em;
+    text-align: left;
     margin: auto;
     color: #001e41;
     margin-top: 20px;
@@ -135,35 +147,36 @@ input[type="search"],
 input[type="tel"],
 textarea {
     width: 100%;
-    color: black;
-    text-transform: uppercase;
     height: 32px;
     padding: 7px 0;
-    border-bottom: 1px solid #fff;
-    font-size: 1.6rem;
+    border-bottom: 1px solid rgba(12, 12, 12, .8);
+    font-family: "Lato", sans-serif;
+    @include font-size(1.6rem);
     line-height: 32px;
+    font-weight: 400;
+    color: #414141;
 }
 
 textarea {
-    height: 80px;
-    resize: none !important;
+    // height: 40px;
+    // resize: none !important;
 }
 
 ::placeholder {
     /* Chrome, Firefox, Opera, Safari 10.1+ */
-    color: $color-white;
+    color: #414141;
     opacity: 1;
 }
 
 
 :-ms-input-placeholder {
     /* Internet Explorer 10-11 */
-    color: $color-white;
+    color: #414141;
 }
 
 ::-ms-input-placeholder {
     /* Microsoft Edge */
-    color: $color-white;
+    color: #414141;
 }
 
 input:-webkit-autofill,
@@ -183,4 +196,8 @@ select:-webkit-autofill:focus {
     max-width: 1440px;
     margin: 0 auto;
     padding: 0 40px;
+}
+
+.left-footer{
+
 }

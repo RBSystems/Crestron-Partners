@@ -17,7 +17,7 @@
 
 .believe-left {
     width: 51%;
-    text-align: center;
+    text-align: left;
 }
 
 .believe-left h3 {
@@ -25,16 +25,21 @@
     @include font-size(7rem);
     font-weight: 900;
     line-height: 1em;
+    text-align: left;
 }
 
 .believe-left p {
     text-align: left;
     color: white;
-    margin-top: 4%;
+    margin-top: 5%;
+    font-family: "Lato", sans-serif;
+    @include font-size(1.6rem);
+    font-weight: 300;
+    line-height: 19px;
 }
 
 .believe-right {
-    margin-left: 20%;
+    margin-left: 10%;
 }
 
 .believe-botton {
@@ -42,14 +47,17 @@
     background: #ffce33;
     color: #001e41;
     border: 0;
-    font-weight: 900;
     text-transform: uppercase;
     display: inline-block;
     text-align: left;
     margin-top: 10%;
     border-radius: 50px;
-    padding: 10px 30px 10px 30px;
+    padding: 22px 56px 24px 56px;
     position: relative;
     text-decoration: none;
     margin-bottom: 10%;
+    font-weight: 900;
+    font-family: "Lato", sans-serif;
+    @include font-size(1.8rem);
+    line-height: 22px;
 }

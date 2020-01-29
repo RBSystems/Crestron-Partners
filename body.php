@@ -1,5 +1,22 @@
 <section class="top-page">
   <header id="header">
+    <div class="menu">
+      <div class="container">
+        <nav id="nav">
+          <input type="checkbox" id="show-mobile">
+          <span></span>
+          <span></span>
+          <span></span>
+          <ul>
+              <li><a href="#it-works">KNOW IT WORKS</a></li>
+              <li><a href="#collaborate">COLLABORATE WITH CONFIDENCE</a></li>
+              <li><a href="#performance"></a>OUR PERFORMANCE</li>
+              <li><a href="#believe">BELIEVE IN CRESTRON</a></li>
+              <li><a href="#work">WORK WITH US</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
     <div class="container logo-container">
       <a href="https://www.crestron-partners.com.au/" target="_blank"><img src="images/logo-crestron.png" width="177" alt="Crestron Partners"></a>
       <a href="https://www.crestron-partners.com.au/" target="_blank"><img src="images/logo-ten-four.svg" width="111" alt="Ten Four"></a>
@@ -40,7 +57,7 @@
           </p>
           <div class="it-works-logo-content">
              <a href="https://www.crestron-partners.com.au/" target="_blank"><img src="images/crestron-middle-logo.png" width="177"  alt="Crestron Partners"></a>
-             <a href="https://www.crestron-partners.com.au/" target="_blank"><img src="images/logo-middle-ten-four.svg" width="111" height="32px" alt="Ten Four"></a>
+             <a href="https://www.crestron-partners.com.au/" target="_blank"><img src="images/logo-middle-ten-four.svg" width="111" height="40px" alt="Ten Four"></a>
           </div>
         </div>
       </div>
@@ -52,7 +69,7 @@
   </div>
 </section>
 
-<section class="collaborate" >
+<section class="collaborate" id="collaborate" >
   <div class="container">
     <div class="collaborate-wrap">
       <h2>Collaborate with confidence </h2>
@@ -70,7 +87,7 @@
   <img src="images/middle-red-line.svg" style="float:right;" class="middle-red-line">
 </section>
 
-<section class="performance">
+<section class="performance" id="performance" >
   <div class="container ">
     <div class="performance-container">
         <h3>We’re passionate about performance</h3>
@@ -106,7 +123,7 @@
 </section>
 
 
-<section class="believe">
+<section class="believe" id="believe">
     <div class="container">
       <div class="believe-container">
         <div class="believe-left">
@@ -129,35 +146,67 @@
 </section>
 
 <section class="work" id="work">
-  <div class="container work-container">
-  <img src="images" alt="it-works-top" class="work-left1">
-  <img src="images/" alt="it-works-bottom" class="work-right ">
+  <div class="container">
+    <div class="work-container">
 
-    <h2>Work With Us</h2>
-    <p>Engage TenFour and Crestron to support and enable beautiful collaboration that works wonders across your organisation.
-       Just use the form to get in touch, and you can book a <span class="bold-text">free on-site demonstration</span> at your office!</p>
-    <div class="work-form">
-      <form action="form-submit.php" class="register-form">
-          <fieldset>
-            <div class="form-group">
-              <div class="col">
-                <input type="text" name="firstname" placeholder="First Name" data-rule-required="true" data-msg-required="Please enter your first name">
+      <img src="images/middle-red-line.svg"  class="red-left-line-works">
+      
+      <div class="work-form">
+        <h2>Work With Us</h2>
+          <p>Engage TenFour and Crestron to support and enable beautiful collaboration that works wonders across your organisation.
+            Just use the form to get in touch, and you can book a <span class="bold-text">free on-site demonstration</span> at your office!</p>
+        <form action="form-submit.php" class="work-form">
+            <fieldset>
+              <div class="form-group">
+                <div class="col">
+                  <input type="text" name="firstname" placeholder="First Name" data-rule-required="true" data-msg-required="Please enter your first name">
+                </div>
+                <div class="col">
+                  <input type="text" name="lastname" placeholder="Last Name" data-rule-required="true" data-msg-required="Please enter your last name">
+                </div>
               </div>
-              <div class="col">
-                <input type="text" name="lastname" placeholder="Last Name" data-rule-required="true" data-msg-required="Please enter your last name">
+              <div class="form-group">
+                <div class="col">
+                  <input type="text" name="organization" placeholder="Organization">
+                </div>
+                <div class="col">
+                  <input type="email" name="email" placeholder="Email" data-rule-required="true" data-msg-required="Please enter your email">
+                </div>
               </div>
-            </div>
-            <div class="form-group">
-              <div class="col">
-                <input type="tel" name="phone" placeholder="Phone" data-rule-minlength="10" data-rule-maxlength="10" data-rule-required="true" data-msg-required="Please enter your phone number">
+              <div class="form-group">
+                <div class="col">
+                  <input type="tel" name="phone" placeholder="Phone" data-rule-minlength="10" data-rule-maxlength="10" data-rule-required="true" data-msg-required="Please enter your phone number">
+                </div>
+                <div class="col">
+                  <!-- <select class="role">
+                    <option selected value="Not specified">Role in Company</option>
+                    <option selected value="CEO">CEO</option>
+                    <option selected value="CTO">CTO</option>
+                    <option selected value="Others">Others</option>
+                  </select> -->
+                  <input placeholder="Role in Company" type="text" class="role" list="roles" name="role">
+                  <datalist id="roles">
+                    <option value="CEO">
+                    <option value="CTO">
+                    <option value="Marketing Department">
+                    <option value="Others">
+                  </datalist>
+                </div>
               </div>
-              <div class="col">
-                <input type="email" name="email" placeholder="Email" data-rule-required="true" data-msg-required="Please enter your email">
+              <div class="form-group">
+                <textarea placeholder="Comments"></textarea>
+                
               </div>
-            </div>
-            <input type="submit" class="btn-submit" value="submit">
-          </fieldset>
-        </form>
+              <div class="form-group submit-btn">
+                <input type="submit" class="btn-submit" value="submit">
+              </div>
+            </fieldset>
+          </form>
+      </div>
+
+      <div class="left-straight-block">
+      </div>
+
     </div>
   </div>
 </section>

@@ -55,12 +55,14 @@
 }
 
 .it-works-content p {
+    font-weight: 300;
+    font-family: "Lato", sans-serif;
+    @include font-size(1.6rem);
+    line-height: 19px;
     color: #001e41;
     text-align: left;
     width: 83%;
-    font: 300 1.6rem/1.187 "Lato", sans-serif;
     letter-spacing: 0;
-    line-height: 21px;
 }
 
 .it-works-title h2 {
@@ -86,6 +88,10 @@
     align-content: flex-start;
     align-items: baseline;
     margin-top: 10%;
+    img{
+        display: inline-block;
+        vertical-align: middle;
+    }
     a{
         display: inline-block;
         position: relative;
@@ -108,4 +114,5 @@
             }
         }
     }
+
 }
