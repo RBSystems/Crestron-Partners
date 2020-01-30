@@ -23,10 +23,21 @@
     </div>
   </header>
   <div class="banner">
-    <div class="container banner-container">
-      <div class="banner-img">
-        <img src="images/banner-cut.png" alt="Crestron Partners">
+    <div class="banner-image">
+      <div class="container">
+        <div class="banner-holder">
+          <div class="bg-back">
+          </div>
+          <div class="bg-front">
+            <img src="images/banner-front.png" width="1028" height="310" alt="">
+          </div>
+        </div>
       </div>
+    </div>
+    <div class="container banner-container">
+      <!-- <div class="banner-img">
+        <img src="images/banner-cut.png" alt="Crestron Partners">
+      </div> -->
       <div class="banner-contents">
         <h1>
           Human collaboration experiences that create beautiful connections

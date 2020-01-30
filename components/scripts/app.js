@@ -52,4 +52,16 @@ document.addEventListener('DOMContentLoaded', function() {
             });
         }
     });
+
+    var banner = $('.banner-image');
+    var bg = $('.bg-back');
+
+    $(document).mousemove(function(e){
+        console.log("hello");
+        var moveX=(e.pageX*-1/10);
+        var moveY=(e.pageY*-1/10);
+      
+        bg.css('background-position', moveX + 'px ' + moveY + 'px')
+        
+    })
 });

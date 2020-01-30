@@ -23,6 +23,9 @@
         <tr><td>Last Name</td><td>'.$lname.'</td></tr>
         <tr><td>Phone</td><td>'.$phone.'</td></tr>
         <tr><td>Email</td><td>'.$email.'</td></tr>
+        <tr><td>Role</td><td>'.$role.'</td></tr>
+        <tr><td>Comments</td><td>'.$comments.'</td></tr>
+        <tr><td>Organization</td><td>'.$organization.'</td></tr>
         <tr><td>Form Fill Date</td><td>'.$insert_date.'</td></tr>
         </table>';
 $to = 'francis@bang.com.au';
