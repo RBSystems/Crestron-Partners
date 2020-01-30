@@ -200,7 +200,7 @@
             </div>
           </div>
           <div class="form-group">
-            <textarea placeholder="Comments"></textarea>
+            <textarea name="comments" placeholder="Comments"></textarea>
           </div>
           <div class="form-group btn-holder">
             <input type="submit" class="btn btn-submit" value="submit">
