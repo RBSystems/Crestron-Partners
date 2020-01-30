@@ -1,6 +1,8 @@
+'use strict';
+
 import $ from 'jquery';
 import AOS from 'aos';
-'use strict';
+require ('jquery-validation');
 
 document.addEventListener('DOMContentLoaded', function() {
     console.log('amr test');
@@ -29,5 +31,25 @@ document.addEventListener('DOMContentLoaded', function() {
                 menu_btn.prop("checked", false);
             }
         } 
+    });
+    $('.btn-submit').click(function(ev){
+        ev.preventDefault();
+        if( $("#work-form").valid() ){
+            $( ".btn-submit" ).addClass( "disabled" );
+            var var_data = $("#work-form").serialize(),
+                var_url = $("#work-form").attr('action');
+            $('body').css('cursor','wait');
+            $.ajax({
+                type:"POST",
+                url: var_url,
+                data: var_data,
+                success: function(response){
+                    $("#work-form").slideUp("slow",function(){
+                        $('.message-success').fadeIn(500);
+                    })
+                    $('body').css('cursor','auto');
+                }
+            });
+        }
     });
 });

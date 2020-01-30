@@ -18,6 +18,17 @@
         border-top-left-radius: 216px;
         border-top-right-radius: 216px;
     }
+    .error{
+        display: block;
+        text-align: left;
+        font-weight: normal;
+        color: red;
+    }
+    .message-success{
+        color: #ffcc36;
+        display: none;
+        margin: 40px 0;
+    }
 }
 
 .work-container h2 {

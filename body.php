@@ -155,7 +155,7 @@
         <h2>Work With Us</h2>
           <p>Engage TenFour and Crestron to support and enable beautiful collaboration that works wonders across your organisation.
             Just use the form to get in touch, and you can book a <span class="bold-text">free on-site demonstration</span> at your office!</p>
-        <form action="form-submit.php" class="work-form">
+        <form action="form-submit.php" class="work-form" id="work-form">
             <fieldset>
               <div class="form-group">
                 <div class="col">
@@ -194,7 +194,7 @@
                 </div>
               </div>
               <div class="form-group">
-                <textarea placeholder="Comments"></textarea>
+                <textarea name="comments" placeholder="Comments"></textarea>
                 
               </div>
               <div class="form-group submit-btn">
@@ -202,6 +202,9 @@
               </div>
             </fieldset>
           </form>
+          <div class="message-success">
+          <p>Thank you for registering your interest. A member of our team will be in contact with you shortly.</p>
+          </div> <!-- end .message-success -->  
       </div>
 
       <div class="left-straight-block">
