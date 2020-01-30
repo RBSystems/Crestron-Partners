@@ -1,5 +1,6 @@
 import $ from 'jquery';
 import AOS from 'aos';
+import jcf from 'jcf';
 'use strict';
 
 document.addEventListener('DOMContentLoaded', function() {
@@ -35,11 +36,18 @@ document.addEventListener('DOMContentLoaded', function() {
     var bg = $('.bg-back');
 
     $(document).mousemove(function(e){
-        console.log("hello");
         var moveX=(e.pageX*-1/10);
         var moveY=(e.pageY*-1/10);
       
         bg.css('background-position', moveX + 'px ' + moveY + 'px')
         
     })
+
+    jcf.setOptions('Select', {
+        wrapNative: false,
+        wrapNativeOnMobile: false,
+        fakeDropInBody: false,
+        maxVisibleItems: 5
+      });
+    jcf.replace($('.work-form select'));
 });

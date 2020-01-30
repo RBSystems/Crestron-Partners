@@ -1,122 +1,21 @@
 
 /* My code starts here for logo and top banner */
-.logo-container {
+.top-page{
     display: flex;
-    flex-direction: row;
+    height: 100vh;
     align-items: center;
-    justify-content: center;
-    padding-top: 5%;
-    a{
-        display: inline-block;
-        position: relative;
-        vertical-align: middle;
-        margin: 0 20px;
-        &:after {
-            content: '';
-            position: absolute;
-            width: 1px;
-            background: #ccc;
-            right: -20px;
-            height: 50px;
-            top: 50%;
-            transform: translateY(-50%);
-            cursor: default;
-        }
-        &:last-child {
-            &:after{
-                display: none;
-            }
-        }
-    }
-}
-
-.banner-container {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-}
-
-/* .banner-container img {
-    height: auto;
-    width: 100%;
-} */
-.banner-image{
-    margin: 60px 0;
-}
-.banner-holder{
     position: relative;
-    overflow: hidden;
-    max-width: 1028px;
-    margin: 0 auto;
-    width: 100%;
 }
-.bg-back{
+header{
+    width: 100%;
     position: absolute;
-    height: 100%;
-    width: 1440px;
-    left: 50%;
-    transform: translateX(-50%);
-    background: url('/images/banner-back.png') no-repeat;
-    background-size: 1400px;
+    top: 0;
 }
-.bg-front{
-    position: relative;
-    z-index: 5;
-    img{
-        width: 100%;
-        height: auto;
-    }
-}
-
-.banner-contents {
-    text-align: center;
-}
-
-.banner-contents h1 {
-    font-family: "Lato", sans-serif;
-    @include font-size(2.3rem);
-    margin: 10px 0 30px;
-    font-weight: 400;
-    line-height: 28px;
-}
-
-.banner-contents p {
-    font-family: "Lato", sans-serif;
-    @include font-size(1.6rem);
-    text-align: center;
-    font-weight: 300;
-    line-height: 19px;
-    max-width: 673px;
-    margin: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    color: $color-white;
-}
-
-.banner-botton {
-    font-size: 15px;
-    background: #ffce33;
-    color: #001e41;
-    border: 0;
-    font-weight: 600;
-    text-transform: uppercase;
-    display: inline-block;
-    text-align: center;
-    border-radius: 50px;
-    padding: 16px 57px 16px 57px;
-    position: relative;
-    text-decoration: none;
-    margin-bottom: 10%;
-    margin-top: 4%;
-    a{
-        text-decoration: none;
-        font-weight: 900;
-        font-family: "Lato", sans-serif;
-        @include font-size(1.8rem);
-        line-height: 22px;
-        letter-spacing: .54px;
-        color: #001e41;
+.menu{
+    &:after{
+        content: '';
+        clear: both;
+        display: block;
     }
 }
 #nav{
@@ -125,11 +24,11 @@
     margin-top: 3%;
     span{
         position: relative;
-        z-index: 5;
+        z-index: 20;
         display: block;
         margin-bottom: 6px;
-        width: 35px;
-        height: 5px;
+        width: 24px;
+        height: 4px;
         background: #707070;
         transition: transform .3s cubic-bezier(.77, .2, .05, 1), background .3s cubic-bezier(.77, .2, .05, 1), opacity .2s ease;
         &:last-child {
@@ -138,7 +37,7 @@
     }
     input{
         position: absolute;
-        z-index: 10;
+        z-index: 25;
         opacity: 0;
         cursor: pointer;
         right: 0;
@@ -149,10 +48,18 @@
         &:checked ~ span{
             background: #004a80;
             transform: rotate(45deg) translate(10px, 10px);
+            &:nth-child(3){
+                opacity: 0;
+                transform: rotate(0deg) scale(0, 0);
+            }
+            &:nth-child(4){
+                transform: rotate(-45deg) translate(5px, -5px);
+            }
         }
     }
     ul{
         position: absolute;
+        z-index: 10;
         width: 300px;
         top: -15px;
         right: -15px;
@@ -178,5 +85,87 @@
                 color: blue;
             }
         }
+    }
+}
+.logo-container {
+    text-align: center;
+    padding-top: 20px;
+    a{
+        display: inline-block;
+        position: relative;
+        vertical-align: middle;
+        margin: 0 20px;
+        &:after {
+            content: '';
+            position: absolute;
+            width: 1px;
+            background: #ccc;
+            right: -20px;
+            height: 50px;
+            top: 50%;
+            transform: translateY(-50%);
+            cursor: default;
+        }
+        &:last-child {
+            &:after{
+                display: none;
+            }
+        }
+    }
+}
+
+.banner{
+    padding-top: 2%;
+    width: 100%;
+}
+.banner-image{
+    margin: 60px 0;
+}
+.banner-holder{
+    position: relative;
+    overflow: hidden;
+    max-width: 1028px;
+    margin: 0 auto;
+    width: 100%;
+    background: #fff;
+}
+.bg-back{
+    position: absolute;
+    height: 100%;
+    width: 1440px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: url('/images/banner-back.png') no-repeat;
+    background-size: 1400px;
+}
+.bg-front{
+    position: relative;
+    z-index: 5;
+    img{
+        width: 100%;
+        height: auto;
+    }
+}
+
+.banner-text{
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+    h1{
+        font-family: "Lato", sans-serif;
+        @include font-size(2.3rem);
+        font-weight: 400;
+        line-height: 28px;
+    }
+}
+.btn-holder{
+    padding-top: 40px;
+}
+
+// Responsive coding
+@include respond-to(desktop){
+    .top-page{
+        height: 99vh;
     }
 }

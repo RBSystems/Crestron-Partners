@@ -1,6 +1,6 @@
 
 .believe {
-    margin-top: 10%;
+    padding-top: 100px;
 }
 
 .believe-container {
@@ -8,56 +8,13 @@
     justify-content: space-between;
 }
 
-@media all and (max-width: 1200px) {
-    .believe-container {
-        flex-direction: column;
-        align-items: center;
-    }
-}
-
 .believe-left {
-    width: 51%;
+    width: 40%;
     text-align: left;
-}
-
-.believe-left h3 {
-    font-family: "Lato", sans-serif;
-    @include font-size(7rem);
-    font-weight: 900;
-    line-height: 1em;
-    text-align: left;
-}
-
-.believe-left p {
-    text-align: left;
-    color: white;
-    margin-top: 5%;
-    font-family: "Lato", sans-serif;
-    @include font-size(1.6rem);
-    font-weight: 300;
-    line-height: 19px;
-}
-
-.believe-right {
-    margin-left: 10%;
-}
-
-.believe-botton {
-    font-size: 15px;
-    background: #ffce33;
-    color: #001e41;
-    border: 0;
-    text-transform: uppercase;
-    display: inline-block;
-    text-align: left;
-    margin-top: 10%;
-    border-radius: 50px;
-    padding: 22px 56px 24px 56px;
-    position: relative;
-    text-decoration: none;
-    margin-bottom: 10%;
-    font-weight: 900;
-    font-family: "Lato", sans-serif;
-    @include font-size(1.8rem);
-    line-height: 22px;
+    h2{
+        margin-bottom: 40px;
+    }
+    .btn{
+        margin-top: 50px;
+    }
 }

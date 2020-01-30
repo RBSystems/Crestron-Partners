@@ -2,86 +2,23 @@
     overflow: hidden;
 }
 .it-works-container {
-    background-color: $color-white;
+    background: $color-white;
     display: flex;
-    flex-direction: column;
-    // min-height: 741px;
-    padding: 150px 0;
+    flex-direction: row;
+    padding: 130px 0;
     align-items: center;
-}
-
-.it-works-right-panel {
-    width: 46.5%;
-    position: relative;
-    &:after{
-        position: absolute;
-        content: '';
-        width: 216px;
-        height: 108px;
-        background: red;
-        bottom: -14%;
-        left: -10%;
-        border-top-left-radius: 216px;
-        border-top-right-radius: 216px;
-    }
-}
-
-.top-img {
-    position: absolute;
-    top: -22%;
-    left: 43%;
-    z-index: 2;
-}
-
-.main-img {
-    /* margin-top: 125px;
-    max-height: 530px; */
-    position: relative;
-    z-index: 1;
-    width: 100%;
-    height: auto;
-    right: -30px;
-    // float: right;
-    // max-width: 90%;
 }
 
 .it-works-left-panel {
     width: 53%;
     padding: 0 2% 0 9%;
     justify-content: center;
-}
-.it-works-content{
-    padding-right: 10%;
-}
-
-.it-works-content p {
-    font-weight: 300;
-    font-family: "Lato", sans-serif;
-    @include font-size(1.6rem);
-    line-height: 19px;
     color: #001e41;
-    text-align: left;
-    width: 83%;
-    letter-spacing: 0;
-}
-
-.it-works-title h2 {
-    text-align: left;
-    width: 80%;
-}
-
-// responsive design code
-@media all and (min-width: 800px) {
-    .it-works-container {
-        flex-direction: row;
-    }
-    .it-works-content p {
-        color: #001e41;
-        text-align: justify;
-        width: 100%;
+    h2{
+        color: #012f66;
+        width: 80%;
     }
 }
-
 .it-works-logo-content{
     display: flex;
     flex-direction: row;
@@ -101,7 +38,7 @@
             content: '';
             position: absolute;
             width: 1px;
-            background: black;
+            background: #707070;
             right: -20px;
             height: 50px;
             top: 50%;
@@ -115,4 +52,33 @@
         }
     }
 
+}
+
+.it-works-right-panel {
+    width: 46.5%;
+    position: relative;
+    &:after{
+        position: absolute;
+        content: '';
+        width: 216px;
+        height: 108px;
+        background: red;
+        bottom: -14%;
+        left: -10%;
+        border-top-left-radius: 216px;
+        border-top-right-radius: 216px;
+    }
+    .top-img {
+        position: absolute;
+        top: -22%;
+        left: 43%;
+        z-index: 2;
+    }
+    .main-img {
+        position: relative;
+        z-index: 1;
+        width: 100%;
+        height: auto;
+        right: -30px;
+    }
 }

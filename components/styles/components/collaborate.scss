@@ -4,8 +4,8 @@
     &:after{
         position: absolute;
         content: '';
-        width: 316px;
-        height: 158px;
+        width: 360px;
+        height: 180px;
         background: #ffcc36;
         bottom: 20%;
         left: -8%;
@@ -18,33 +18,21 @@
     }
 }
 .collaborate-wrap{
-    max-width: 100%;
+    max-width: 980px;
     margin: 0 auto;
-    padding-left: 196px;
 }
-
 .collaborate h2 {
     color: #fff;
+    width: 70%;
     margin-bottom: 5%;
 }
-
 .collaborate-container {
     display: flex;
-    justify-content: space-evenly;
-}
-
-
-.collaborate-right p {
-    color: $color-white;
-    text-align: left;
-    width: 46%;
-    line-height: 19px;
+    justify-content: space-between;
 }
 .collaborate-left{
-    width: 71%;
+    width: 42%;
 }
-
-@media all and (min-width: 800px) {
-    .collaborate h3 {
-    }
+.collaborate-right{
+    width: 45%;
 }
