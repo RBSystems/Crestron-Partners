@@ -12,7 +12,7 @@
     justify-content: space-between;
     flex-direction: row;
 
-    @include respond-to(tablet) {
+    @include respond-to(desktop) {
         flex-direction: column;
     }
 }
@@ -21,15 +21,15 @@
     width: 50%;
     text-align: left;
 
-    @include respond-to(tablet) {
+    @include respond-to(desktop) {
         width: 100%;
     }
 
     .content-wrapper {
         max-width: 500px;
 
-        @include respond-to(large-desktop) {
-            padding-right: 50px;
+        @include respond-to(desktop) {
+            max-width: none;
         }
     }
 
@@ -39,7 +39,7 @@
     .btn{
         margin-top: 50px;
 
-        @include respond-to(tablet) {
+        @include respond-to(desktop) {
             margin-top: 20px;
             margin-bottom: 30px;
         }
@@ -50,7 +50,7 @@
 .believe-right {
     width: 50%;
 
-    @include respond-to(tablet) {
+    @include respond-to(desktop) {
         width: 100%;
     }
 

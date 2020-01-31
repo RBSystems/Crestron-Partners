@@ -1,13 +1,21 @@
+.footer {
+    margin: 20px 0;
+}
+
+.footer-contents{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
 .left-footer{
     display: flex;
     flex-direction: row;
 
     a{
-        display: inline-block;
         position: relative;
-        vertical-align: middle;
-        margin: 0 20px;
-
+        width: 50%;
+        
         &:after {
             content: '';
             position: absolute;
@@ -31,9 +39,4 @@
 .footer-container{
     padding-top: 3%;
     padding-bottom: 3%;
-}
-
-.footer-contents{
-    display: flex;
-    justify-content: space-between;
 }
