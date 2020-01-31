@@ -65,6 +65,15 @@ document.addEventListener('DOMContentLoaded', function() {
         
     })
 
+    // scroll link animation
+    $(function() {
+        $('#nav ul a').on('click', function(e) {
+          e.preventDefault();
+          $('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top}, 600, 'linear');
+        });
+    });
+
+    //custom forms
     jcf.setOptions('Select', {
         wrapNative: false,
         wrapNativeOnMobile: false,

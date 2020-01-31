@@ -15,6 +15,9 @@
     @include respond-to(desktop) {
         flex-direction: column;
     }
+    @include respond-to(mobile-large) {
+        text-align: center;
+    }
 }
 
 .believe-left {
@@ -24,13 +27,18 @@
     @include respond-to(desktop) {
         width: 100%;
     }
-
+    @include respond-to(mobile-large) {
+        text-align: center;
+    }
     .content-wrapper {
         max-width: 500px;
         padding-right: 50px;
 
         @include respond-to(desktop) {
             max-width: none;
+        }
+        @include respond-to(mobile-large) {
+            padding-right: 0;
         }
     }
 

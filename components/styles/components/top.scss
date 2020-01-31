@@ -7,6 +7,9 @@
     justify-content: center;
     position: relative;
     flex-direction: column;
+    @include respond-to(mobile-large){
+        padding-top: 5%;
+    }
 }
 
 header{
@@ -118,6 +121,11 @@ header{
             &:after{
                 display: none;
             }
+        }
+    }
+    img{
+        @include respond-to(mobile-large) {
+            max-width: 130px;
         }
     }
 }
