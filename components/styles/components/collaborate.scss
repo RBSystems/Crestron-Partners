@@ -9,11 +9,11 @@
     &:after{
         position: absolute;
         content: '';
-        width: 360px;
+        width: 260px;
         height: 180px;
         background: #ffcc36;
         bottom: 20%;
-        left: -8%;
+        left: -10%;
         border-top-left-radius: 350px;
         border-top-right-radius: 350px;
         transform: rotate(90deg);
@@ -21,7 +21,7 @@
         clear: both;
 
         @include respond-to(desktop) {
-            left: -22%;
+            display: none;
         }
 
         @include respond-to(tablet) {
@@ -34,7 +34,7 @@
     max-width: 1185px;
     margin: 0 75px;
 
-    @include respond-to(tablet) {
+    @include respond-to(desktop) {
         margin: 0 25px;
     }
 
@@ -61,6 +61,10 @@
 .collaborate-left{
     width: 50%;
 
+    @include respond-to(large-desktop) {
+        padding-right: 20px;
+    }
+
     @include respond-to(mobile-large) {
         width: 100%;
     }
@@ -74,7 +78,7 @@
 }
 
 .middle-red-line {
-    @include respond-to(tablet ) {
+    @include respond-to(large-desktop) {
         display: none;
     }
 }
