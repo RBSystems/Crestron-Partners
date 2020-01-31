@@ -27,6 +27,7 @@
 
     .content-wrapper {
         max-width: 500px;
+        padding-right: 50px;
 
         @include respond-to(desktop) {
             max-width: none;
