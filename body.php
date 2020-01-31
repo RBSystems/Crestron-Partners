@@ -136,16 +136,17 @@
     <div class="container">
       <div class="believe-container">
         <div class="believe-left">
-          <h2>Believe in Crestron</h2>
-          <p>For more than 45 years, Crestron has helped businesses like yours with beautifully engineered automation, audio visual and unified communications equipment for modern workplaces.
-          </p> 
-          <p> Crestron technology simply works wonders, producing inspired collaboration you can believe in.</p>
-          <a class="btn">Find out more</a>
+          <div class="content-wrapper">
+            <h2>Believe in Crestron</h2>
+            <p>For more than 45 years, Crestron has helped businesses like yours with beautifully engineered automation, audio visual and unified communications equipment for modern workplaces.
+            </p> 
+            <p> Crestron technology simply works wonders, producing inspired collaboration you can believe in.</p>
+            <a class="btn">Find out more</a>
+          </div>
         </div>
         <div class="believe-right">
           <div class="video-holder">
-            <iframe src="https://www.youtube.com/embed/amuH0Gs5ZhjhhjY" frameborder="0" style="    width: 663px;
-        height: 404px;" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/amuH0Gs5ZhjhhjY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
         </div>
       </div>
@@ -155,13 +156,12 @@
 <section class="work" id="work">
   <div class="container">
     <div class="work-container">
-
       <img src="images/middle-red-line.svg"  class="red-left-line-works">
-      
       <div class="work-form">
+        <div class="work-form-content-wrapper">
         <h2>Work With Us</h2>
-        <p>Engage TenFour and Crestron to support and enable beautiful collaboration that works wonders across your organisation.
-            Just use the form to get in touch, and you can book a <strong>free on-site demonstration</strong> at your office!</p>
+        <p>Engage TenFour and Crestron to support and enable beautiful collaboration that works wonders across your organisation.Just use the form to get in touch, and you can book a <strong>free on-site demonstration</strong> at your office!</p>
+        </div>
         <form action="form-submit.php" id="work-form" class="work-form">
           <div class="form-group">
             <div class="col">

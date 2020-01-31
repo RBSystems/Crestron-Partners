@@ -11,6 +11,8 @@
 
 header{
     width: 100%;
+    position: absolute;
+    top: 15px;
 }
 
 .menu{
@@ -20,6 +22,7 @@ header{
         display: block;
     }
 }
+
 #nav{
     float: right;
     position: relative;
@@ -37,6 +40,7 @@ header{
             margin-bottom: 0;
         }
     }
+
     input{
         position: absolute;
         z-index: 25;
@@ -59,6 +63,7 @@ header{
             }
         }
     }
+
     ul{
         position: absolute;
         z-index: 10;
@@ -89,9 +94,10 @@ header{
         }
     }
 }
+
 .logo-container {
     text-align: center;
-    padding-top: 20px;
+    padding-top: 15px;
     a{
         display: inline-block;
         position: relative;
@@ -128,10 +134,14 @@ header{
 .banner-holder{
     position: relative;
     overflow: hidden;
-    max-width: 1028px;
+    max-width: 950px;
     margin: 0 auto;
     width: 100%;
     background: #fff;
+
+    @include respond-to(desktop) {
+        max-width: 700px;
+    }
 }
 .bg-back{
     position: absolute;
@@ -165,11 +175,4 @@ header{
 }
 .btn-holder{
     padding-top: 40px;
-}
-
-// Responsive coding
-@include respond-to(desktop){
-    .top-page{
-        height: 99vh;
-    }
 }

@@ -18,6 +18,7 @@
     "jquery": "^3.4.1",
     "jquery-validation": "^1.19.1",
     "popper.js": "^1.15.0",
+    "postcss-responsive-type": "^1.0.0",
     "rfs": "^9.0.2",
     "rollup": "^1.29.0",
     "rollup-plugin-babel": "^4.3.3",

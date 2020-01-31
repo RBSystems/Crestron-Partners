@@ -1,7 +1,7 @@
 .work{
-    padding-top: 130px;
     overflow: hidden;
 }
+
 .work-container {
     background-color: white;
     text-align: center;
@@ -152,6 +152,8 @@
     }
 }
 
-/* input::-webkit-calendar-picker-indicator {
-    opacity: 100;
-} */
+.work-form-content-wrapper {
+    margin-bottom: 40px;
+    display: inline-block;
+    width: 100%;
+}
