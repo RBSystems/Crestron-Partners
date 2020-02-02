@@ -132,6 +132,9 @@ header{
 .banner{
     display: inline-block;
     width: 100%;
+    .container{
+        overflow: hidden;
+    }
 }
 
 .banner-image{
