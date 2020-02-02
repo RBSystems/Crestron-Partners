@@ -89,10 +89,9 @@ header{
         a{
             color: #6c6c6c;
             text-decoration: none;
-            &.yellow{ color: yellow; }
             &:hover,
             &:focus{
-                color: blue;
+                color: #012f66;
             }
         }
     }
