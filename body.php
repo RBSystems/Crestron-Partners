@@ -19,8 +19,8 @@
     </div> -->
     <div class="logo-container">
       <div class="container">
-        <a href="https://www.crestron-partners.com.au/" target="_blank"><img src="images/logo-crestron.png" width="177" alt="Crestron Partners"></a>
-        <a href="https://www.crestron-partners.com.au/" target="_blank"><img src="images/logo-ten-four.svg" width="111" alt="Ten Four"></a>
+        <a href="https://www.crestron.com/" target="_blank"><img src="images/logo-crestron.png" width="177" alt="Crestron Partners"></a>
+        <a href="https://tenfour.nz/" target="_blank"><img src="images/logo-ten-four.svg" width="111" alt="Ten Four"></a>
       </div>
     </div>
   </header>
@@ -62,8 +62,8 @@
           <p>TenFour and Crestron exist to support and enable these connections. Together, we provide New Zealand organisations with excellent, best-in-class audio visual and unified communications solutions that guide collaboration for today’s workspaces.</p>
           <p>From consulting services and solution design, through to delivery and ongoing support, TenFour underpins your strategic goals with the highest quality communications technology that helps bring your people together.</p>
           <div class="it-works-logo-content">
-             <a href="https://www.crestron-partners.com.au/" target="_blank"><img src="images/crestron-middle-logo.png" width="177"  alt="Crestron Partners"></a>
-             <a href="https://www.crestron-partners.com.au/" target="_blank"><img src="images/logo-middle-ten-four.svg" width="111" height="40px" alt="Ten Four"></a>
+             <a href="https://www.crestron.com/" target="_blank"><img src="images/crestron-middle-logo.png" width="177"  alt="Crestron Partners"></a>
+             <a href="https://tenfour.nz/" target="_blank"><img src="images/logo-middle-ten-four.svg" width="111" height="40px" alt="Ten Four"></a>
           </div>
         </div>
       </div>
