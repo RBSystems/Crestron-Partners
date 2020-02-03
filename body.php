@@ -45,7 +45,7 @@
           </h1>
           <p>In the modern workplace – across professional firms, university lecture halls, and in the most remote location receiving education or healthcare services – one thing unites human collaboration. We all seek a beautiful connection that can make a lasting difference in our lives.</p>
           <div class="btn-holder">
-            <a href="#" class="btn">GET IN TOUCH</a>
+            <a href="#work" class="btn btn-anchor">GET IN TOUCH</a>
           </div>
         </div>
       </div>
@@ -141,7 +141,7 @@
             <p>For more than 45 years, Crestron has helped businesses like yours with beautifully engineered automation, audio visual and unified communications equipment for modern workplaces.
             </p> 
             <p> Crestron technology simply works wonders, producing inspired collaboration you can believe in.</p>
-            <a class="btn">Find out more</a>
+            <a class="btn" target="_blank" href="https://believeincrestron.com">Find out more</a>
           </div>
         </div>
         <div class="believe-right">
