@@ -15,10 +15,11 @@
 header{
     width: 100%;
     position: absolute;
-    top: 15px;
+    top: 30px;
 }
 
 .menu{
+    display: none;
     &:after{
         content: '';
         clear: both;

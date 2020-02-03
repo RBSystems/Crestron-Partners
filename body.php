@@ -1,6 +1,6 @@
 <section class="top-page">
   <header id="header">
-    <div class="menu">
+    <!-- <div class="menu">
       <div class="container">
         <nav id="nav">
           <input type="checkbox" id="show-mobile">
@@ -16,7 +16,7 @@
           </ul>
         </nav>
       </div>
-    </div>
+    </div> -->
     <div class="logo-container">
       <div class="container">
         <a href="https://www.crestron-partners.com.au/" target="_blank"><img src="images/logo-crestron.png" width="177" alt="Crestron Partners"></a>
