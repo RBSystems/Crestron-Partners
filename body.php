@@ -1,6 +1,6 @@
 <section class="top-page">
   <header id="header">
-    <div class="menu">
+    <!-- <div class="menu">
       <div class="container">
         <nav id="nav">
           <input type="checkbox" id="show-mobile">
@@ -16,11 +16,11 @@
           </ul>
         </nav>
       </div>
-    </div>
+    </div> -->
     <div class="logo-container">
       <div class="container">
-        <a href="https://www.crestron-partners.com.au/" target="_blank"><img src="images/logo-crestron.png" width="177" alt="Crestron Partners"></a>
-        <a href="https://www.crestron-partners.com.au/" target="_blank"><img src="images/logo-ten-four.svg" width="111" alt="Ten Four"></a>
+        <a href="https://www.crestron.com/" target="_blank"><img src="images/logo-crestron.png" width="177" alt="Crestron Partners"></a>
+        <a href="https://tenfour.nz/" target="_blank"><img src="images/logo-ten-four.svg" width="111" alt="Ten Four"></a>
       </div>
     </div>
   </header>
@@ -45,7 +45,7 @@
           </h1>
           <p>In the modern workplace – across professional firms, university lecture halls, and in the most remote location receiving education or healthcare services – one thing unites human collaboration. We all seek a beautiful connection that can make a lasting difference in our lives.</p>
           <div class="btn-holder">
-            <a href="#" class="btn">GET IN TOUCH</a>
+            <a href="#work" class="btn btn-anchor">GET IN TOUCH</a>
           </div>
         </div>
       </div>
@@ -62,8 +62,8 @@
           <p>TenFour and Crestron exist to support and enable these connections. Together, we provide New Zealand organisations with excellent, best-in-class audio visual and unified communications solutions that guide collaboration for today’s workspaces.</p>
           <p>From consulting services and solution design, through to delivery and ongoing support, TenFour underpins your strategic goals with the highest quality communications technology that helps bring your people together.</p>
           <div class="it-works-logo-content">
-             <a href="https://www.crestron-partners.com.au/" target="_blank"><img src="images/crestron-middle-logo.png" width="177"  alt="Crestron Partners"></a>
-             <a href="https://www.crestron-partners.com.au/" target="_blank"><img src="images/logo-middle-ten-four.svg" width="111" height="40px" alt="Ten Four"></a>
+             <a href="https://www.crestron.com/" target="_blank"><img src="images/crestron-middle-logo.png" width="177"  alt="Crestron Partners"></a>
+             <a href="https://tenfour.nz/" target="_blank"><img src="images/logo-middle-ten-four.svg" width="111" height="40px" alt="Ten Four"></a>
           </div>
         </div>
       </div>
@@ -141,7 +141,7 @@
             <p>For more than 45 years, Crestron has helped businesses like yours with beautifully engineered automation, audio visual and unified communications equipment for modern workplaces.
             </p> 
             <p> Crestron technology simply works wonders, producing inspired collaboration you can believe in.</p>
-            <a class="btn">Find out more</a>
+            <a class="btn" target="_blank" href="https://believeincrestron.com">Find out more</a>
           </div>
         </div>
         <div class="believe-right">

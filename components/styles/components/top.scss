@@ -15,10 +15,11 @@
 header{
     width: 100%;
     position: absolute;
-    top: 15px;
+    top: 30px;
 }
 
 .menu{
+    display: none;
     &:after{
         content: '';
         clear: both;
@@ -89,10 +90,9 @@ header{
         a{
             color: #6c6c6c;
             text-decoration: none;
-            &.yellow{ color: yellow; }
             &:hover,
             &:focus{
-                color: blue;
+                color: #012f66;
             }
         }
     }
