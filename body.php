@@ -207,7 +207,7 @@
           </div>
         </form>
         <div class="message-success">
-          <p>Thank you for registering your interest. A member of our team will be in contact with you shortly.</p>
+        <p>Thanks for reaching out to us! A local Crestron expert will be in touch with you shortly.</p>
         </div> <!-- end .message-success --> 
       </div>
 
