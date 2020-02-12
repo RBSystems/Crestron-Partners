@@ -184,12 +184,12 @@
               <input type="tel" name="phone" placeholder="Phone" data-rule-minlength="10" data-rule-maxlength="10" data-rule-required="true" data-msg-required="Please enter your phone number">
             </div>
             <div class="col">
-              <select class="role" name="role">
+              <!-- <select class="role" name="role">
                 <option selected value="Not specified">Role in Company</option>
-                <option selected value="CEO">CEO</option>
-                <option selected value="CTO">CTO</option>
-                <option selected value="Others">Others</option>
-              </select>
+                <option  value="CEO">CEO</option>
+                <option  value="CTO">CTO</option>
+                <option  value="Others">Others</option>
+              </select> -->
               <!-- <input placeholder="Role in Company" type="text" class="role" list="roles" name="role">
               <datalist id="roles">
                 <option value="CEO">
@@ -207,7 +207,7 @@
           </div>
         </form>
         <div class="message-success">
-          <p>Thank you for registering your interest. A member of our team will be in contact with you shortly.</p>
+          <p>Thanks for reaching out to us! A local Crestron expert will be in touch with you shortly.</p>
         </div> <!-- end .message-success --> 
       </div>
 

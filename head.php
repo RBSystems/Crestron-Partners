@@ -8,7 +8,7 @@
     <meta name="keywords" content="" />
     <meta name="author" content="">
     <link rel="icon" href="favicon.ico">
-    <title>Crestron | TEN FOUR</title>
+    <title>Crestron | TenFour</title>
   <!-- Adding Google fonts  -->
   <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/index.css">
