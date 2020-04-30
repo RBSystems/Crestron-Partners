@@ -15,7 +15,7 @@
     "gulp-include": "^2.4.1",
     "gulp-uglify": "^3.0.2",
     "jcf": "^1.2.3",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "jquery-validation": "^1.19.1",
     "popper.js": "^1.15.0",
     "postcss-responsive-type": "^1.0.0",
